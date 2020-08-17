@@ -1,0 +1,16 @@
+.clipboard__header-background {
+    background: url(../../assets/images/bg-header-desktop.png);
+    background-size: cover;
+    background-position: top;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(min-width: 738px) {
+    .clipboard__header-background {
+        background-position: bottom;
+    }
+}

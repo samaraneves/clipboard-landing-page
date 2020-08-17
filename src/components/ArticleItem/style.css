@@ -1,0 +1,11 @@
+.clipboard__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.clipboard__article-title {
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+}

@@ -1,0 +1,12 @@
+.clipboard__section-title {
+    margin-bottom: 2rem;
+}
+
+.clipboard__section-content p,
+.clipboard__section-title {
+    text-align: center;
+}
+
+.clipboard__section-content {
+    padding: 2rem;
+}

@@ -1,0 +1,15 @@
+export { default as Logo } from './images/logo.svg';
+export { default as backgroundHeader } from './images/bg-header-desktop.png';
+export { default as iconBlacklist } from './images/icon-blacklist.svg';
+export { default as iconFacebook } from './images/icon-facebook.svg';
+export { default as iconInstagram } from './images/icon-instagram.svg';
+export { default as iconTwitter } from './images/icon-twitter.svg';
+export { default as iconPreview } from './images/icon-preview.svg';
+export { default as iconText } from './images/icon-text.svg';
+export { default as imgComputer } from './images/image-computer.png';
+export { default as imgDevices } from './images/image-devices.png';
+export { default as logoGoogle } from './images/logo-google.png';
+export { default as logoHP } from './images/logo-hp.png';
+export { default as logoIBM } from './images/logo-ibm.png';
+export { default as logoMicrosoft } from './images/logo-microsoft.png';
+export { default as logoVectorGraphics } from './images/logo-vector-graphics.png';
