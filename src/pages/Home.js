@@ -18,11 +18,13 @@ const Home = () => {
         <Header/>
             <Main>
                 <SectionContent 
+                    classe="clipboard__section-presentation"
                     title="A history of everything you copy" 
                     content="Clipboard allows you to track and organize everything
                     you copy. Instantly access your clipboard on all your devices."
                 />
                 <SectionContent 
+                    classe="clipboard__section-snippets"
                     title="Keep track of your snippets" 
                     content="Clipboard instantly stores any item you copy in the cloud,
                     meaning you can access your snippets immediately on all your devices.
@@ -52,6 +54,7 @@ const Home = () => {
                 <Image src={imgDevices} alt="Computer and Devices"/>
             </SectionContent>
             <SectionContent
+            classe="clipboard__section-presentation"
             title="Supercharge your workflow"
             content="We've got the tools to boost your productivity.">
 
