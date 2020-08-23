@@ -114,8 +114,7 @@ const Home = () => {
                 content="Available for free on the App Store. 
                 Download for Mac or iOS, sync with iCloud and you're ready to start adding
                 to your clipboard."
-                classe="clipboard__section-compatibility"
-            >
+                classe="clipboard__section-compatibility">
                 <Button 
                     prefixClass="iOS"
                     text="Download for iOS"
@@ -125,8 +124,8 @@ const Home = () => {
                     text="Download for Mac"
                 />
             </SectionContent>
-            <Footer/>
             </Main>
+            <Footer/>
         </div>
     )
 }

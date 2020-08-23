@@ -2,12 +2,12 @@
     margin-bottom: 2rem;
 }
 
-.clipboard__section-content p,
+.clipboard__section p,
 .clipboard__section-title {
     text-align: center;
 }
 
-.clipboard__section-content {
+.clipboard__section {
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
     justify-content: center;
 }
 
-.clipboard__section-content button {
+.clipboard__section button {
     margin: 1rem 0 1rem 0;
 }
 
@@ -31,5 +31,9 @@
     .clipboard__section-presentation .clipboard__section-paragraph {
         width: 60rem;
         line-height: 3rem;
+    }
+    .clipboard__section {
+        width: 100%;
+        grid-column: 1 / span 10;
     }
 }

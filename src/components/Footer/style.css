@@ -29,3 +29,10 @@
 .address__socialMedia-item .clipboard__image {
     width: 3rem;
 }
+
+@media(min-width: 1024px) {
+    .clipboard__footer {
+        width: 100%;
+        grid-column: 1 / span 10;
+    }
+}
