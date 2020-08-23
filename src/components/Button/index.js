@@ -1,10 +1,9 @@
 import React from 'react';
+import './style.css';
 
 const Button = (props) => {
     return(
-        <div className="clipboard__button-container">
-            <button type="button" className={props.class}>{props.content}</button>
-        </div>
+        <button type="button" className={`clipboard__button clipboard__button-${(props.prefixClass !== undefined) ? props.prefixClass : 'default'}`}>{props.text}</button>
     )
 }
 

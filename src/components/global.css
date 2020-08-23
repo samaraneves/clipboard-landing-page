@@ -2,10 +2,13 @@
 :root {
     --color-background: ;
     --color-strong-cyan: hsl(171, 66%, 44%);
+    --color-dark-cyan: hsl(171, 66%, 40%);
     --color-light-blue: hsl(233, 100%, 69%);
+    --color-dark-blue: hsl(233, 100%, 65%);
     --dark-grayish-blue: hsl(210, 10%, 33%);
-    --grayish-blue: hsl(201, 11%, 66%);
-    --background-white: hsl(0, 100%, 100%);
+    --text-color-dark: hsl(201, 11%, 66%);
+    --grayish-blue: hsl(61, 18%, 97%);
+    --color-white: hsl(0, 100%, 100%);
     --font-weight-normal: 400;
     --font-weight-titles: 600;
     --font-default-size: 1.8rem;
@@ -20,8 +23,8 @@
 }
 
 body {
-    background-color: var(--background-white);
-    color: var(--grayish-blue);
+    background-color: var(--color-white);
+    color: var(--text-color-dark);
     font: var(--font-weight-normal) 1.8rem var(--font-family);
 }
 
@@ -44,4 +47,14 @@ h6 {
 p {
     font-size: 1.6rem;
     line-height: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li,
+ol {
+    list-style: none;
 }

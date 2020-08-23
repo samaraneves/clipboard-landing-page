@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.clipboard__header-background .clipboard__section-image {
+    width: 15rem;
+}
+
 @media(min-width: 738px) {
     .clipboard__header-background {
         background-position: bottom;

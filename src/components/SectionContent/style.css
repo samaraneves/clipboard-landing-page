@@ -9,4 +9,27 @@
 
 .clipboard__section-content {
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clipboard__section-customers {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clipboard__section-content button {
+    margin: 1rem 0 1rem 0;
+}
+
+@media(min-width: 1024px) {
+    .clipboard__section-presentation .clipboard__section-paragraph {
+        width: 60rem;
+        line-height: 3rem;
+    }
 }

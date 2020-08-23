@@ -1,4 +1,16 @@
-.clipboard__section-image {
+.clipboard__header-background .clipboard__image {
+    width: 15rem;
+}
+
+.clipboard__footer .clipboard__image {
+    width: 5rem;
+}
+
+.clipboard__image {
     width: 100%;
     margin: 4rem 0 2rem 0;
+}
+
+.clipboard__customers-image {
+    width: auto;
 }

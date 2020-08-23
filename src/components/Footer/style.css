@@ -1,0 +1,31 @@
+.clipboard__footer {
+    background-color: var(--grayish-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__links-item {
+    list-style-type: none;
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-grayish-blue);
+}
+
+.clipboard__footer .clipboard__section-image {
+    width: 8rem;
+}
+
+.footer__address {
+    width: 100%;
+}
+
+.address__socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.address__socialMedia-item .clipboard__image {
+    width: 3rem;
+}

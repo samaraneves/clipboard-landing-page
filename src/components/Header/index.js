@@ -1,11 +1,12 @@
 import React from 'react';
+import Image from '../../components/Image';
 import { Logo } from '../../assets';
 import './style.css';
 
 function Header(){
     return(
         <header className="clipboard__header-background">
-                <img src={Logo} alt="Clipboard Logo" className="clipboard__header-logo"/>
+                <Image src={Logo} alt="Clipboard Logo"/>
         </header>
     )
 }

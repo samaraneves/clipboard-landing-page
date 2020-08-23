@@ -1,0 +1,38 @@
+.clipboard__button {
+    padding: 2rem;
+    border: 0;
+    border-radius: 5rem;
+    width: 100%;
+    max-width: 350px;
+    font: var(--font-weight-normal) 1.6rem var(--font-family);
+    outline: none;
+}
+
+.clipboard__button-iOS,
+.clipboard__button-Mac {
+    color: var(--color-white);
+}
+
+.clipboard__button-iOS {
+    background-color: var(--color-strong-cyan);
+    border-bottom: 4px solid var(--color-dark-cyan);
+}
+
+.clipboard__button-iOS:hover,
+.clipboard__button-iOS:focus,
+.clipboard__button-iOS:active {
+    box-shadow: 5px 5px 20px 1px var(--color-strong-cyan);
+    transition: 3s box-shadow;
+}
+
+.clipboard__button-Mac {
+    background-color: var(--color-light-blue);
+    border-bottom: 4px solid var(--color-dark-blue);
+}
+
+.clipboard__button-Mac:hover,
+.clipboard__button-Mac:focus,
+.clipboard__button-Mac:active {
+    box-shadow: 5px 5px 20px 1px var(--color-light-blue);
+    transition: 1s box-shadow;
+}
