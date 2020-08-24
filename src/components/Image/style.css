@@ -16,9 +16,6 @@
 }
 
 @media(min-width: 1024px) {
-    .clipboard__section-snippets .clipboard__image {
-        width: 100%;
-    }
     .clipboard__section-acess .clipboard__image {
         width: auto;
     }
