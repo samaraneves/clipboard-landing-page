@@ -59,3 +59,7 @@ li,
 ol {
     list-style: none;
 }
+
+#root>div {
+    overflow-x: hidden;
+}
