@@ -56,7 +56,7 @@
     }
     .clipboard__section-customers {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
         grid-row: 4;
         grid-column: 1 / span 4;
