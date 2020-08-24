@@ -63,12 +63,13 @@
     }
     .clipboard__section-workflow {
         display: grid;
-        grid-template-columns: repeat(3, 30rem);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 5rem) repeat(2, 20rem);
     }
     .clipboard__section-workflow .clipboard__article {
         grid-row: 3;
-        margin: 0;
+        margin: 0 2rem 0 2rem;
+        height: 100%;
     }
     .clipboard__section-presentation,
     .clipboard__section-compatibility {
