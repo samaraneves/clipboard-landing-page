@@ -1,0 +1,5 @@
+@media(min-width: 1024px) {
+    .clipboard__main-container {
+        overflow-x: hidden;
+    }
+}
