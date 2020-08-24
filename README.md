@@ -4,16 +4,24 @@ Este projeto faz parte de uma primeira prática utilizando ReactJS. Meu objetivo
 
 ## Instalação & Visualização
 
-A visualização pode ser realizada através do link no topo da página ou clonando o repositório e iniciando em seu navegador. Em caso de optar por clonar, deve-se ter o Node e o NPM instalado.
+A visualização pode ser realizada através do link no topo da página ou clonando o repositório e iniciando em seu navegador. 
+É preciso antes de mais nada, possuir um gerenciador de pacotes ou o yarn (Mac) ou npm (Linux e Windows). No exemplo, utilizarei npm.
 
-Clonando este projeto (Acessando o terminal): 
+Clonando este projeto (Acessando o terminal):
+
 `
 git clone https://github.com/samaraneves/clipboard-landing-page.git
 `
 Acessando a pasta do projeto:
+
 `cd clipboard-landing-page`
 
+Instalar dependências:
+
+`npm i`
+
 Abrir o projeto: 
+
 `npm start`
 
 ## Construído com
