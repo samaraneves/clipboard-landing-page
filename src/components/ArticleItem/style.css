@@ -9,3 +9,22 @@
     text-align: center;
     margin: 2rem 0 2rem 0;
 }
+
+@media(min-width: 1024px) {
+    .clipboard__section-services .clipboard__article .clipboard__article-title {
+        width: 100%;
+    }
+    .clipboard__section-services .clipboard__article {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin: 0;
+        width: 40rem;
+        text-align: left;
+        height: 15rem;
+    }
+    .clipboard__section-services .clipboard__article .clipboard__article-title,
+    .clipboard__section-services .clipboard__article .clipboard__article-text {
+        text-align: left;
+    }
+}

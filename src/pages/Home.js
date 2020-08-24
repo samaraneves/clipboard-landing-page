@@ -49,6 +49,8 @@ const Home = () => {
                     meaning you can access your snippets immediately on all your devices.
                     Our Mac and iOS apps will help you organize everything.">
                     <Image src={imgComputer} alt="Computer and benefits"/>
+                    <SectionContent
+                    classe="clipboard__section-services">
                     <ArticleItem
                         title="Quick Search"
                         text="Easily search your snippets by content,
@@ -64,6 +66,7 @@ const Home = () => {
                         text="Retrieve any snippets from the firts moment
                         you started using the app."
                     />
+                    </SectionContent>
                 </SectionContent>
             <SectionContent 
                 title="Access Clipboard Anywhere"

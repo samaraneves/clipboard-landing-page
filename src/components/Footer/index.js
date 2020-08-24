@@ -34,7 +34,7 @@ const Footer = () => {
                 </ul>
             </div>
             <address className="footer__address">
-                <ul class="address__socialMedia">
+                <ul className="address__socialMedia">
                 {socialMedias.map(socialMedias => (
                         <li className="address__socialMedia-item" key={socialMedias.social}>
                             <Links href={'#'}>

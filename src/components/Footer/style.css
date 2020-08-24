@@ -32,7 +32,32 @@
 
 @media(min-width: 1024px) {
     .clipboard__footer {
-        width: 100%;
-        grid-column: 1 / span 10;
+        display: grid;
+        justify-content: space-evenly;
+        height: 15rem;
+    }
+    .footer__links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .clipboard__footer .clipboard__image,
+    .footer__address {
+        margin: 0;
+    }
+    .clipboard__footer .clipboard__image {
+        justify-self: center;
+    }
+    .footer__address {
+        grid-column: 6;
+    }
+    .address__socialMedia {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .address__socialMedia-item {
+        margin-right: 3rem;
+    }
+    .footer__links-item {
+        text-align: left;
     }
 }

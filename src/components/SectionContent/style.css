@@ -28,12 +28,62 @@
 }
 
 @media(min-width: 1024px) {
-    .clipboard__section-presentation .clipboard__section-paragraph {
-        width: 60rem;
+    .clipboard__section-customers .clipboard__section-title,
+    .clipboard__section-customers .clipboard__section-paragraph {
+        display: none;
+    }
+    .clipboard__section-presentation,
+    .clipboard__section-compatibility {
+        grid-template-columns: repeat(10, 1fr);
+        grid-column-gap: 1rem;
+    }
+    .clipboard__section-title {
+        grid-row: 1;
+        grid-column: 1 / span 10;
+    }
+    .clipboard__section-presentation,
+    .clipboard__section-compatibility {
+        display: grid;
+        grid-template-rows: repeat(2, 50px) 100px;
+        grid-row-gap: 2rem;
+    }
+    .clipboard__section .clipboard__section-paragraph {
+        grid-row: 2;
+        grid-column: 1 / 10 span;
+        width: 50rem;
+        justify-self: center;
         line-height: 3rem;
     }
-    .clipboard__section {
+    .clipboard__section-customers {
+        flex-direction: row;
+        justify-content: space-between;
         width: 100%;
-        grid-column: 1 / span 10;
+        grid-row: 4;
+        grid-column: 1 / span 4;
+    }
+    .clipboard__section-workflow {
+        display: grid;
+        grid-template-columns: repeat(3, 30rem);
+        grid-template-rows: repeat(2, 5rem) repeat(2, 20rem);
+    }
+    .clipboard__section-workflow .clipboard__article {
+        grid-row: 3;
+        margin: 0;
+    }
+    .clipboard__section-presentation,
+    .clipboard__section-compatibility {
+        grid-template-columns: repeat(10, 1fr);
+        grid-column-gap: 1rem;
+    }
+    .clipboard__section-snippets {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .clipboard__section-services {
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
     }
 }

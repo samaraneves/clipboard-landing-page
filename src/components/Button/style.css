@@ -36,3 +36,22 @@
     box-shadow: 5px 5px 20px 1px var(--color-light-blue);
     transition: 1s box-shadow;
 }
+
+@media(min-width: 1024px) {
+    .clipboard__button-Mac,
+    .clipboard__button-iOS {
+        grid-row: 3;
+    }
+    .clipboard__button-iOS {
+        grid-column: 4/ 6;
+    }
+    .clipboard__button-Mac {
+        grid-column: 6/ 8;
+    }
+}
+
+@media(min-width: 1600px) {
+    .clipboard__button-iOS {
+        justify-self: flex-end;
+    }
+}
